@@ -1,0 +1,65 @@
+/* Atur gaya keseluruhan form */
+form {
+    width: 300px;
+    margin: 50px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    background-color: #f9f9f9;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    font-family: Arial, sans-serif;
+}
+
+/* Gaya label */
+form label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #333;
+}
+
+/* Gaya input text dan dropdown */
+form input[type="text"], form select {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 14px;
+    box-sizing: border-box;
+}
+
+/* Gaya radio button dan checkbox */
+form input[type="radio"], form input[type="checkbox"] {
+    margin-right: 5px;
+}
+
+/* Gaya untuk setiap set radio dan checkbox */
+form div {
+    margin-bottom: 10px;
+}
+
+/* Gaya tombol submit */
+form button[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    background-color: #4c7caf;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+/* Efek hover pada tombol submit */
+form button[type="submit"]:hover {
+    background-color: #a04545;
+}
+
+/* Gaya untuk margin antar elemen */
+form input[type="radio"] + label,
+form input[type="checkbox"] + label {
+    margin-right: 10px;
+    font-weight: normal;
+}
